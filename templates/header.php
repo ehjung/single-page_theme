@@ -1,3 +1,6 @@
+ <p> TESTING </p>
+
+<!-- 
 <header class="banner container" role="banner">
   <div class="row">
     <div class="col-lg-12">
@@ -12,3 +15,4 @@
     </div>
   </div>
 </header>
+-->
