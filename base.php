@@ -1,3 +1,7 @@
+  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css">
+
+
+
 <?php get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
 
@@ -16,6 +20,8 @@
       get_template_part('templates/header');
     }
   ?>
+
+  <?php get_template_part('image_header'); ?>
 
   <div class="wrap container" role="document">
     <div class="content row">

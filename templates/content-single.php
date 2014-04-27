@@ -12,4 +12,4 @@
     </footer>
     <?php comments_template('/templates/comments.php'); ?>
   </article>
-<?php endwhile; ?>
+<?php endwhile; ?> 

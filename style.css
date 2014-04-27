@@ -1,11 +1,16 @@
-/*
-Theme Name:         Roots
-Theme URI:          http://roots.io/
-Description:        Roots is a WordPress starter theme based on HTML5 Boilerplate & Bootstrap. <a href="https://github.com/roots/roots/contributors">Contribute on GitHub</a>
-Version:            6.5.2
-Author:             Ben Word
-Author URI:         http://benword.com/
+ .top-section { 
+ 	height: 100px;
+ 	width: 100px;
+ 	overflow:hidden;
+ }
 
-License:            MIT License
-License URI:        http://opensource.org/licenses/MIT
-*/
+ .image_container-full {
+	background-image: url(./images/IMG_0400.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: auto;
+	-moz-background-size: auto;
+	background-size: auto;
+	background-color: #1D5E8D;
+	height: 500px;
+}
