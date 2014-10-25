@@ -431,26 +431,26 @@ a:active {
 5.2 Menus
 --------------------------------------------------------------*/
 .main-navigation {
-	clear: both;
-	display: block;
-	float: left;
 	width: 100%;
+	height: 50px;
+	background-color: #808080;
 }
 
 .main-navigation ul {
 	list-style: none;
-	margin: 0;
-	padding-left: 0;
+	float: right;
 }
 
 .main-navigation li {
-	float: left;
-	position: relative;
+	display: inline;
+	height: 50px;
 }
 
 .main-navigation a {
-	display: block;
+	display: inline-block;
+	padding: 10px;
 	text-decoration: none;
+	color: #fff;
 }
 
 .main-navigation ul ul {
@@ -476,6 +476,9 @@ a:active {
 }
 
 .main-navigation li:hover > a {
+	background-color: #fff;
+	color: #808080;
+	height: 50px;
 }
 
 .main-navigation ul ul :hover > a {
