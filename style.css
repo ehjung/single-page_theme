@@ -417,10 +417,6 @@ a {
 	color: royalblue;
 }
 
-a:visited {
-	color: purple;
-}
-
 a:hover,
 a:focus,
 a:active {
@@ -433,12 +429,14 @@ a:active {
 .main-navigation {
 	width: 100%;
 	height: 50px;
-	background-color: #808080;
+	background: rgba(122, 87, 47, 0.9);
+	position: fixed;
 }
 
 .main-navigation ul {
 	list-style: none;
 	float: right;
+	padding-right: 50px;
 }
 
 .main-navigation li {
@@ -536,6 +534,16 @@ a:active {
 	float: right;
 	text-align: right;
 	width: 50%;
+}
+
+.content {
+	height: auto;
+}
+
+.content-section {
+	padding-top: 50px;
+	top: 0;
+	bottom: 0;
 }
 
 /*--------------------------------------------------------------

@@ -7,10 +7,23 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	</header><!-- .entry-header -->
+<div class="content">
+	<div class="content-section">
+		<header class="entry-header">
+			<a id="about_me">About Me</a>
+			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		</header><!-- .entry-header -->
 
+	</div>
+
+	<div class="content-section">
+		<a id="projects">Projects</a>
+	</div>
+
+	<div class="content-section">
+		<a id="contact_me">Contact Me</a>
+	</div>
+</div>
 	<div class="entry-content">
 		<?php the_content(); ?>
 		<?php
