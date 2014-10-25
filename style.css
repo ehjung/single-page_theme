@@ -94,8 +94,7 @@ figure,
 footer,
 header,
 main,
-nav,
-section {
+nav {
 	display: block;
 }
 
@@ -428,8 +427,8 @@ a:active {
 --------------------------------------------------------------*/
 .main-navigation {
 	width: 100%;
-	height: 50px;
-	background: rgba(122, 87, 47, 0.9);
+	height: 75px;
+	background: rgba(131, 131, 131, 0.9);
 	position: fixed;
 }
 
@@ -441,7 +440,8 @@ a:active {
 
 .main-navigation li {
 	display: inline;
-	height: 50px;
+	height: 75px;
+	width: 192;
 }
 
 .main-navigation a {
@@ -449,6 +449,8 @@ a:active {
 	padding: 10px;
 	text-decoration: none;
 	color: #fff;
+	font-family: 'Fredericka the Great';
+	font-size: 32px;
 }
 
 .main-navigation ul ul {
@@ -476,7 +478,7 @@ a:active {
 .main-navigation li:hover > a {
 	background-color: #fff;
 	color: #808080;
-	height: 50px;
+	height: 75px;
 }
 
 .main-navigation ul ul :hover > a {
@@ -534,16 +536,6 @@ a:active {
 	float: right;
 	text-align: right;
 	width: 50%;
-}
-
-.content {
-	height: auto;
-}
-
-.content-section {
-	padding-top: 50px;
-	top: 0;
-	bottom: 0;
 }
 
 /*--------------------------------------------------------------
@@ -648,6 +640,25 @@ a:active {
 /*--------------------------------------------------------------
 10.0 Content
 --------------------------------------------------------------*/
+
+.section {
+	padding-top: 50px;
+	min-width: 950px;
+}
+
+#projects_section {
+	background: url("images/projects_section_bg.png") repeat scroll 0 0;
+	width: 100%;
+}
+
+#projects_section_bottom_border {
+
+}
+
+.section_content {
+
+}
+
 /*--------------------------------------------------------------
 10.1 Posts and pages
 --------------------------------------------------------------*/

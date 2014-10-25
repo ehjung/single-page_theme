@@ -7,23 +7,31 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-<div class="content">
+	<div id="home_section" class="section">
+		Hommmeee
+	</div>
+
 	<div class="content-section">
 		<header class="entry-header">
-			<a id="about_me">About Me</a>
+			<a id="about_me_section">About Me</a>
 			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		</header><!-- .entry-header -->
 
 	</div>
 
-	<div class="content-section">
-		<a id="projects">Projects</a>
+	<div id="projects_section" class="section">
+		<div class="section_content">
+			The section should go here
+		</div>
+		<div id="projects_section_bottom_border">
+			The border should go here
+		</div>
 	</div>
 
 	<div class="content-section">
-		<a id="contact_me">Contact Me</a>
+		<a id="contact_me_section">Contact Me</a>
 	</div>
-</div>
+
 	<div class="entry-content">
 		<?php the_content(); ?>
 		<?php
