@@ -426,30 +426,30 @@ a:active {
 5.2 Menus
 --------------------------------------------------------------*/
 .main-navigation {
-	width: 100%;
-	height: 75px;
-	background: rgba(131, 131, 131, 0.9);
+	width: 175px;
+	height: 100%;
+	background: #7B151E;
 	position: fixed;
 }
 
 .main-navigation ul {
 	list-style: none;
-	float: right;
-	padding-right: 50px;
+	float: left;
+	padding-top: 200px;
+	margin: 0 0 0 0px;
 }
 
 .main-navigation li {
-	display: inline;
 	height: 75px;
-	width: 192;
 }
 
 .main-navigation a {
 	display: inline-block;
-	padding: 10px;
+	padding-left: 30px;
+	padding-top: 10px;
 	text-decoration: none;
-	color: #fff;
-	font-family: 'Fredericka the Great';
+	color: #F6A4AC;
+	font-family: 'Amatic SC';
 	font-size: 32px;
 }
 
@@ -476,9 +476,10 @@ a:active {
 }
 
 .main-navigation li:hover > a {
-	background-color: #fff;
-	color: #808080;
+	background-color: #CD6771;
+	color: #520008;
 	height: 75px;
+	width: 175px;
 }
 
 .main-navigation ul ul :hover > a {
@@ -642,13 +643,14 @@ a:active {
 --------------------------------------------------------------*/
 
 .section {
-	padding-top: 50px;
+	padding-left: 175px;
 	min-width: 950px;
 }
 
 #projects_section {
 	background: url("images/projects_section_bg.png") repeat scroll 0 0;
 	width: 100%;
+	height: 100%;
 }
 
 #projects_section_bottom_border {
