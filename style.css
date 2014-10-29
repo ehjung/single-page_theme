@@ -429,31 +429,54 @@ a:active {
 5.2 Menus
 --------------------------------------------------------------*/
 .main-navigation {
-	width: 175px;
 	height: 100%;
-	background: #7B151E;
+	width: 175px;
+	background: #fff;
 	position: fixed;
 }
 
 .main-navigation ul {
 	list-style: none;
 	float: left;
-	padding-top: 200px;
-	margin: 0 0 0 0px;
+	margin: 0 0 0 25px;
 }
 
 .main-navigation li {
-	height: 75px;
+	height: 100px;
+	width: 100px;
+	padding-left: 10px;
+	margin-top: 30px;
 }
 
+.main-navigation li:hover {
+	width: 175px;
+}
+.main-navigation li:nth-child(1) {
+	background-image:  url('images/home_button.png');
+}
+.main-navigation li:nth-child(1):hover {
+	background-image: url('images/home_button_open.png');
+}
+.main-navigation li:nth-child(2) {
+	background-image: url('images/about_me_button.png');
+}
+.main-navigation li:nth-child(2):hover {
+	background-image: url('images/about_me_button_open.png');
+}
+.main-navigation li:nth-child(3) {
+	background-image: url('images/projects_button.png');
+}
+.main-navigation li:nth-child(3):hover {
+	background-image: url('images/projects_button_open.png');
+}
+.main-navigation li:nth-child(4) {
+	background-image: url('images/contact_me_button.png');
+}
+.main-navigation li:nth-child(4):hover {
+	background-image: url('images/contact_me_button_open.png');
+}
 .main-navigation a {
-	display: inline-block;
-	padding-left: 30px;
-	padding-top: 10px;
-	text-decoration: none;
-	color: #F6A4AC;
-	font-family: 'Amatic SC';
-	font-size: 32px;
+	display: none;
 }
 
 .main-navigation ul ul {
@@ -479,10 +502,12 @@ a:active {
 }
 
 .main-navigation li:hover > a {
-	background-color: #CD6771;
-	color: #520008;
 	height: 75px;
 	width: 175px;
+	color: #F6A4AC;
+	font-family: 'Amatic SC';
+	font-size: 32px;
+	display: block;
 }
 
 .main-navigation ul ul :hover > a {
@@ -646,7 +671,7 @@ a:active {
 --------------------------------------------------------------*/
 
 .section {
-	padding-left: 175px;
+	padding-left: 200px;
 	min-width: 950px;
 	height: 100%;
 }
