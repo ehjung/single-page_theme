@@ -430,7 +430,7 @@ a:active {
 --------------------------------------------------------------*/
 .main-navigation {
 	height: 100%;
-	width: 175px;
+	width: 225px;
 	background: #fff;
 	position: fixed;
 }
@@ -446,6 +446,8 @@ a:active {
 	width: 100px;
 	padding-left: 10px;
 	margin-top: 30px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 
 .main-navigation li:hover {
@@ -502,11 +504,16 @@ a:active {
 }
 
 .main-navigation li:hover > a {
-	height: 75px;
-	width: 175px;
-	color: #F6A4AC;
-	font-family: 'Amatic SC';
-	font-size: 32px;
+	color: #fff;
+	text-align: center;
+	color:white;
+  /*text-shadow: -1px 0 black, 0 1px black,
+  1px 0 black, 0 -1px black;*/
+  	padding-top: 25px;
+	margin-left: -5px;
+	font-family: 'Fascinate Inline';
+	font-size: 25px;
+	text-decoration: none;
 	display: block;
 }
 
@@ -671,7 +678,7 @@ a:active {
 --------------------------------------------------------------*/
 
 .section {
-	padding-left: 200px;
+	padding-left: 250px;
 	min-width: 950px;
 	height: 100%;
 }
